@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScotRail", "ScotRail.csproj", "{42FAC1E2-2BB8-4BDD-978D-5586AA972108}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42FAC1E2-2BB8-4BDD-978D-5586AA972108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42FAC1E2-2BB8-4BDD-978D-5586AA972108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42FAC1E2-2BB8-4BDD-978D-5586AA972108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42FAC1E2-2BB8-4BDD-978D-5586AA972108}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E161CC7-5A5C-4896-89DF-B4C7AB71C03D}
+	EndGlobalSection
+EndGlobal

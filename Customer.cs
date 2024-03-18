@@ -10,14 +10,12 @@ namespace ScotRail
     {
         public string Name { get; set; }
         public string Email { get; set; }
-
         public Customer(string name, string email)
         {
-            Name = name;
+           Name = name;
             Email = email;
         }
-
-        public abstract double CalculateTicketCost();
+public abstract double CalculateTicketCost();
     }
     class FirstClassPassenger : Customer
     {
@@ -26,16 +24,16 @@ namespace ScotRail
         public FirstClassPassenger(string name, string email, string accountNumber)
             : base(name, email)
         {
-            AccountNumber = accountNumber;
+          AccountNumber = accountNumber;
         }
         public override double CalculateTicketCost()
         {
-            return 0.9 * 50; // 10% discount for first class
+    return 0.9 * 50;
         }
     }
     class OrdinaryPassenger : Customer
     {
-        public OrdinaryPassenger(string name, string email)
+  public OrdinaryPassenger(string name, string email)
             : base(name, email)
         {
         }

@@ -2,7 +2,6 @@
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 
-
 namespace ScotRail
 {
     public class MySqlDatabase
@@ -14,7 +13,7 @@ namespace ScotRail
             _connectionString = connectionString;
         }
 
-        public async Task TestConnectionAsync()
+        public async Task TestConnectionAsync() // Mark method as async and return Task
         {
             await using (var connection = new MySqlConnection(_connectionString))
             {
